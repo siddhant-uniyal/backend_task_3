@@ -1,0 +1,27 @@
+// app.post('/words', async (req, res) => {
+//     try {
+//       const { word, meaning } = req.body;
+
+//       const newWord = new Word({
+//         word: word,
+//         meaning: meaning
+//       });
+  
+//       // Save the document to the database
+//       const savedWord = await newWord.save();
+  
+//       res.status(201).json(savedWord);
+//     } catch (error) {
+//       console.error('Error storing word:', error);
+//       res.status(500).json({ error: 'Internal server error' });
+//     }
+//   });
+
+
+
+
+// app.get("/add" , async (req,res)=>{
+//     await Word.create({word:"L",meaning:"A"}).then(()=>{
+//         res.send("Niceee");
+//     })
+// })
